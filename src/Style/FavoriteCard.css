@@ -1,0 +1,9 @@
+.favorite-card {
+    align-items: center;
+    height: 20rem;
+    width: 13rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

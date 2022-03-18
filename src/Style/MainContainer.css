@@ -1,0 +1,9 @@
+.app-container {
+  background-color: #e2eaff;
+  display: flex;
+  flex-direction: column;
+  min-height: 93vh;
+}
+html.dark .app-container {
+  background-color: #333;
+}

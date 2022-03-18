@@ -1,0 +1,48 @@
+.app-bar {
+    background-color: #11204B !important;
+    display: flex;
+    justify-content: space-between;
+}
+html.dark .app-bar {
+    background-color: #F79F2E !important;
+}
+.btn {
+    background-color: #F79F2E !important;
+}
+html.dark .btn {
+    background-color: #11204B !important;
+}
+.Mui-checked .MuiSwitch-track {
+    background-color: #11204B !important;
+}
+a {
+    color: whitesmoke;
+    cursor: none;
+    text-decoration: whitesmoke;
+}
+.toggle-container {
+    flex-direction: row!important;
+    margin-right: 30px!important;
+}
+.appBarIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none!important;
+    }
+    .app-bar-inner {
+    width: 100%;
+        justify-content: space-between!important;
+
+    }
+    .favourite-container {
+        margin: 0 auto;
+    }
+    .detail-container {
+        flex-wrap: wrap;
+    }
+}

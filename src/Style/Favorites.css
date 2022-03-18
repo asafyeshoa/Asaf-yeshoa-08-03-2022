@@ -1,0 +1,18 @@
+.page-container {
+    padding: 0.5rem;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e2eaff;
+}
+
+.favourite-card-container {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
+}
